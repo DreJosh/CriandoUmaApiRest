@@ -38,17 +38,19 @@ npm install --save-dev nodemon
 
 npm config get prefix
 
-set PATH=%PATH%;C:\Users\"Aqui seu usuario"\AppData\Roaming\npm;
+set PATH=%PATH%;C:\Users\"Aqui seu usuário"\AppData\Roaming\npm;
 ```` 
 
-Mas mesmo com esses comando pode acontecer de não instalar corretamente e faltar colocar no package.json, com isso vai ter que colocar na mão. 
+Mas mesmo com esses comandos pode acontecer de não instalar corretamente e faltar colocar no package.json, com isso vai ter que colocar na mão. 
 
 ````
 "dependencies": {
-    "nodemon": "^3.0.1"	
+    "nodemon": "^3.0.1" 
 }
 
 ````
 
-No caso estamos usando o nodemon 3.0.1, mas se quiser podemos utilizar qualquer outra basta colocar nodemon após colocar @ com o numero da versão.
+No caso estamos usando o nodemon 3.0.1, mas se quiser podemos utilizar qualquer outra basta colocar nodemon após colocar @ com o número da versão.
 Para utilizar o nodemon, devemos adicionar o um script no package.js, no caso utilizamos o Dev, mas esse nome é para executar algum script então pode ser qualquer nome.
+
+
